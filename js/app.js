@@ -10,18 +10,18 @@ for(let= i=0; i<100; i++) {
     const multiple5= num%5
 
     if(multiple3===0 && multiple5===0) {
-        console.log(`${num} Fizz Buzz`)
+        console.log(`Fizz Buzz`)
     }
 
     else if(multiple3===0){
-        console.log(`${num} Fizz`)
+        console.log(`Fizz`)
     }
 
     else if(multiple5===0) {
-        console.log(`${num} Buzz`)
+        console.log(`Buzz`)
     }
 
     else{
         console.log(num.toString())
-    }
-}
+    }   
+                                        }
