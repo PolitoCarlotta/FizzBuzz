@@ -5,7 +5,7 @@
 let num= 0
 
 for(let= i=0; i<100; i++) {
-    num +=1
+    num = i+1
     const multiple3= num%3
     const multiple5= num%5
 
@@ -22,6 +22,6 @@ for(let= i=0; i<100; i++) {
     }
 
     else{
-        console.log(num.toString())
+        console.log(num)
     }   
                                         }
